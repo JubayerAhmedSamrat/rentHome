@@ -2,7 +2,7 @@
 
 const Home = () => {
     return (
-        <div>
+        <div className="font-[Poppins] text-4xl">
             This is home
         </div>
     );

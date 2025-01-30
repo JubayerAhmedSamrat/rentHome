@@ -30,7 +30,7 @@ function App() {
   ])
 
   return (
-    <div>
+    <div className="font-poppins">
       <RouterProvider router={router}></RouterProvider>
     </div>
   )
