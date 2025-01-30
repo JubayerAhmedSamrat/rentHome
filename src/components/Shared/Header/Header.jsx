@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import userProfile from '../../../assets/userProfile.png';
 
 const Header = () => {
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="navbar-end">
             <div className="flex gap-2">
             <img className="h-12" src={userProfile} alt="" />
-            <a className="btn btn-neutral bg-red-700">Book Now</a>
+            <Link to='/login' className="btn btn-neutral bg-red-700">Book Now</Link>
             </div>
         </div>
       </div>
