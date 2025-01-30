@@ -1,5 +1,5 @@
 # website name
-RENTHOME
+RentHome
 
 # package used
 
@@ -7,3 +7,4 @@ tailwind
 daisyUI 
 react-router-dom 
 firebase 
+react-icons
