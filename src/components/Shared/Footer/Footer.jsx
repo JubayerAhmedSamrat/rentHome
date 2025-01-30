@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,24 +25,24 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-primary">Quick Links</h3>
           <ul className="mt-2 space-y-2">
             <li>
-              <a href="#" className="hover:text-primary">
+              <NavLink to='/' className="hover:text-primary">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <NavLink href="#" className="hover:text-primary">
                 About Us
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <NavLink href="#" className="hover:text-primary">
                 Properties
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <NavLink href="#" className="hover:text-primary">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

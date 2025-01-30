@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import userProfile from '../../../assets/userProfile.png';
 
 const Header = () => {
   const list = (
@@ -50,7 +51,10 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{list}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-red-700">Book Now</a>
+            <div className="flex gap-2">
+            <img className="h-12" src={userProfile} alt="" />
+            <a className="btn btn-neutral bg-red-700">Book Now</a>
+            </div>
         </div>
       </div>
     </div>
